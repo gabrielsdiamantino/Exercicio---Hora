@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+*{
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #353535;
+}
+header{
+    margin-top: 2%;
+    color:#fff;
+    padding: 20px; 
+}
+.image{
+    text-align: center;
+}
+.image img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+section{
+    width: 70%;
+    background-color: #d9d9d9;
+    padding: 10px;
+    border-radius: 8px;
+}
+.hora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3c6e71;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#timer{
+    font-size: 50px;
+    padding: 20px; 
+}
+#cumprimento{
+    font-size: 30px;
+    padding: 10px; 
+}
+#texto{
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center; 
+    padding: 10px 0 40px 0;
+    width: 80%;
+}
+footer{
+    padding: 20px;
+    color: black;
+}
